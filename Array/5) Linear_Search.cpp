@@ -59,3 +59,7 @@ int main (){
 
     return 0;
 }
+
+
+// Now return element of that index
+// simply return arr[i]
