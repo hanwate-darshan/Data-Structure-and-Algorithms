@@ -20,12 +20,12 @@ int main()
     int size = 5;
     int marks[size];
 
-    for (int i = 0; i <= size; i++)
+    for (int i = 0; i < size; i++) // Takes 5 inputs :Prints 5 outputs
     {
         cin >> marks[i];
     }
 
-    for (int i = 0; i <= size; i++)
+    for (int i = 0; i < size; i++)
     {
         cout << marks[i] << endl;
     }
